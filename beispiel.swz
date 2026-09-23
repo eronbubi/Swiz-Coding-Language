@@ -1,0 +1,29 @@
+// Swiz Beispiel - unsere eigene Sprache
+show "Hallo Swiz!"
+
+let x = 5
+show x + 3
+
+if x > 3 {
+  show "x ist gross"
+} else {
+  show "x ist klein"
+}
+
+while x > 0 {
+  show x
+  let x = x - 1
+}
+
+func add(a, b) {
+  return a + b
+}
+show add(20, 22)
+
+func fak(n) {
+  if n <= 1 {
+    return 1
+  }
+  return n * fak(n - 1)
+}
+show fak(6)
