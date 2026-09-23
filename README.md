@@ -1,6 +1,6 @@
 # Swiz – unsere eigene kleine Programmiersprache
 
-Lauffähiger Baum-Interpreter in Python (eine Datei, keine Abhängigkeiten).
+**Version 0.0.2** · Lauffähiger Baum-Interpreter in Python (eine Datei, keine Abhängigkeiten).
 
 ## Start
 

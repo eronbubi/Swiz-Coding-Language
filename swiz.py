@@ -4,6 +4,8 @@ Keywords: let, show, if, else, while, func, return, true, false
 """
 import sys
 
+SWIZ_VERSION = "0.0.2"
+
 # ---------- Lexer ----------
 KEYWORDS = {"let", "show", "if", "else", "while", "func", "return", "true", "false"}
 
@@ -271,5 +273,7 @@ def run_file(path):
 if __name__ == "__main__":
     if len(sys.argv) < 2:
         print("Start: python swiz.py <datei.swz>")
+    elif sys.argv[1] in ("--version", "-v"):
+        print(f"Swiz {SWIZ_VERSION}")
     else:
         run_file(sys.argv[1])
